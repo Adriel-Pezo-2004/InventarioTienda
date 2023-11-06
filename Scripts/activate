@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\Victus\Desktop\InventarioTienda"
+VIRTUAL_ENV="C:\Users\Victus\Desktop\InventarioTienda\inventario"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
@@ -55,9 +55,9 @@ fi
 
 if [ -z "${VIRTUAL_ENV_DISABLE_PROMPT:-}" ] ; then
     _OLD_VIRTUAL_PS1="${PS1:-}"
-    PS1="(InventarioTienda) ${PS1:-}"
+    PS1="(inventario) ${PS1:-}"
     export PS1
-    VIRTUAL_ENV_PROMPT="(InventarioTienda) "
+    VIRTUAL_ENV_PROMPT="(inventario) "
     export VIRTUAL_ENV_PROMPT
 fi
 
